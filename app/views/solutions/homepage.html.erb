@@ -58,16 +58,60 @@
 
 <h3>Any text</h3>
 
-<!-- Write your form here -->
+<form action="/text">
+  <div>
+    <label for="content_field">Text to search for</label>
+
+    <input type="text" name="content" id="content_field">
+  </div>
+
+  <button>Generate QR code</button>
+</form>
 
 <h3>URL</h3>
 
-<!-- Write your form here -->
+<form action="/url">
+  <div>
+    <label for="page_field">URL to link to</label>
+
+    <input type="text" name="page" id="page_field">
+  </div>
+
+  <button>Generate QR code</button>
+</form>
 
 <h3>Wifi network</h3>
 
-<!-- Write your form here -->
+<form action="/wifi">
+  <div>
+    <label for="ssid_field">Network name</label>
+
+    <input type="text" name="ssid" id="ssid_field">
+  </div>
+
+  <div>
+    <label for="pw_field">Network password</label>
+
+    <input type="text" name="pw" id="pw_field">
+  </div>
+
+  <button>Generate QR code</button>
+</form>
 
 <h3>Text message</h3>
 
-<!-- Write your form here -->
+<form action="/sms">
+  <div>
+    <label for="phone_field">Phone number to pre-fill</label>
+
+    <input type="text" name="phone" id="phone_field">
+  </div>
+
+  <div>
+    <label for="message_field">Message to pre-fill</label>
+
+    <input type="text" name="message" id="message_field">
+  </div>
+
+  <button>Generate QR code</button>
+</form>
