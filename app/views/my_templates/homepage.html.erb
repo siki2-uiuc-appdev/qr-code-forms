@@ -60,14 +60,45 @@
 
 <!-- Write your form here -->
 
+<form action="/text">
+  <label for="text">Text to search for</label>
+  <input id="text" type="text" name="content">
+  <button>Generate QR Code</button>
+</form>
+
 <h3>URL</h3>
 
 <!-- Write your form here -->
+<form action="/url">
+  <label for="url">URL to link to</label>
+  <input id="url" type="text" name="page">
+  <button>Generate QR Code</button>
+</form>
 
 <h3>Wifi network</h3>
 
 <!-- Write your form here -->
+<form action="/wifi">
+
+  <label for="network">Network name</label>
+  <input id="network" type="text" name="ssid">
+
+  <label for="password">Network password</label>
+  <input id="password" type="text" name="pw">
+
+  <button>Generate QR Code</button>
+</form>
 
 <h3>Text message</h3>
 
 <!-- Write your form here -->
+
+<form action="/sms">
+  <label for="number">Phone number tp pre-fill</label>
+  <input id="number" type="text" name="phone">
+
+  <label for="message">Message to pre-fill</label>
+  <input id="message" type="text" name="message">
+
+  <button>Generate QR Code</button>
+</form>
