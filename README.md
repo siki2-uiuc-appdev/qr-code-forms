@@ -1,10 +1,10 @@
 # QR Code Rails
 
-In this project, we'll generate QR codes for our users and display them in the browser.
+In this project, we'll move our QR code generating Ruby programs to the internet, so that other people can easily use them.
 
 ## Target
 
-[Here is a target](https://qr-code-rails.herokuapp.com/) to work towards.
+[Here is a target](http://qr-codes.matchthetarget.com/) to work towards.
 
 ## Anatomy of a URL
 
@@ -61,3 +61,9 @@ Implement the following four URLs:
     ```
     SMSTO:9876543210:Hi Alice! It's me, 
     ```
+
+## Add forms
+
+Next, let's add forms to make it easy for normal users to assemble the above URLs & query strings.
+
+[Here is a reference for Forms.](https://chapters.firstdraft.com/chapters/881) Read through it / keep it open in a tab.
