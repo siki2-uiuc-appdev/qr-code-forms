@@ -10,12 +10,12 @@ Rails.application.routes.draw do
 
   # Solutions below.
 
-  get("/solutions/text", {:controller => "solutions", :action => "text_qr"})
+  get("/text", {:controller => "solutions", :action => "text_qr"})
 
-  get("/solutions/url", {:controller => "solutions", :action => "url_qr"})
+  get("/url", {:controller => "solutions", :action => "url_qr"})
 
-  get("/solutions/wifi", {:controller => "solutions", :action => "wifi_qr"})
+  get("/wifi", {:controller => "solutions", :action => "wifi_qr"})
 
-  get("/solutions/sms", {:controller => "solutions", :action => "sms_qr"})
+  get("/sms", {:controller => "solutions", :action => "sms_qr"})
 
 end

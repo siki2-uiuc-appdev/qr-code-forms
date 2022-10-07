@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>QR Code Rails</title>
+    <title>Target QR Code Rails</title>
     <%= csrf_meta_tags %>
 
     <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
@@ -16,16 +16,20 @@
     <style>
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+        margin-bottom: 10rem;
       }
 
       .main {
-        display: flex;
-        justify-content: center;
+        max-width: 768px;
+        margin: auto;
       }
     </style>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="main">
+      <%= yield %>
+    </div>
   </body>
 </html>
